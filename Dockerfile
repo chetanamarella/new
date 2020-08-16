@@ -8,6 +8,3 @@ RUN mkdir doc3
 RUN cd doc3
 RUN git init
 RUN git clone https://github.com/edureka-devops/projCert.git /doc3
-ADD website /var/www/html
-RUN rm /var/www/html/index.html
-CMD apachectl -D FOREGROUND
