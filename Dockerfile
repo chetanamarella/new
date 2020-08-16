@@ -8,4 +8,4 @@ RUN mkdir doc3
 RUN cd doc3
 RUN git init
 RUN git clone https://github.com/edureka-devops/projCert.git /doc3
-
+EXPOSE 8082
